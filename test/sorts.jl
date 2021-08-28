@@ -20,7 +20,7 @@
         @test x == [1,2,3,4,5]
 
         f(y)
-        @test y == [1,2,3,8,9]
+        @test y == [12,4,3,2,1]
         
         f(empty)
         @test empty == []
